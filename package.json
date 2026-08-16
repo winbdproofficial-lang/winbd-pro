@@ -1,0 +1,7 @@
+{
+  "name": "winbd-pro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "android:sync": "npx cap sync android", "android:build": "cd android && gradlew.bat assembleDebug" },
+  "dependencies": { "@capacitor/android": "^7.0.0", "@capacitor/core": "^7.0.0", "@capacitor/cli": "^7.0.0" }
+}
